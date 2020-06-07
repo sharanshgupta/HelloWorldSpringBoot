@@ -24,6 +24,6 @@ public class HelloWorldUnitTest {
     public void testHelloWorld() {
         ResponseEntity<String> responseEntity = restTemplate.getForEntity("/hello", String.class);
         assertThat(responseEntity.getStatusCode()).isEqualTo(OK);
-        assertThat(responseEntity.getBody()).isEqualTo("Failing this test");
+        assertThat(responseEntity.getBody()).isEqualTo("Hello World");
     }
 }
