@@ -40,6 +40,21 @@
 			<artifactId>spring-boot-test</artifactId>
 			<version>2.2.2.RELEASE</version>
 		</dependency>
+
+		<!--Google Firebase-->
+		<dependency>
+			<groupId>com.google.firebase</groupId>
+			<artifactId>firebase-admin</artifactId>
+			<version>7.1.0</version>
+		</dependency>
+
+		<!--LOG RELATED DEPENDENCIES -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.16</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
